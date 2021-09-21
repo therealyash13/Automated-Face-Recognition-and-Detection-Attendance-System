@@ -1,0 +1,742 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="static/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="static/js/jquery.js"></script>
+<script type="text/javascript" src="static/js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+
+</script>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+</style>
+<style>
+  @charset "utf-8";
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#2e597b url(static/images/main_bg.jpg) top repeat-x;
+}
+html {
+	padding:0;
+	margin:0;
+}
+
+/* main */
+.main {
+	width:100%;
+	padding:0;
+	margin:0 auto;
+}
+.resize {
+	width:966px;
+	margin:0 auto;
+}
+
+/********** header **********/
+.header { }
+.block_header {
+	margin:0 auto;
+	width:966px;
+}
+
+/* logo */
+.logo {
+	float:left;
+	padding:0;
+	width:400px;
+	font: normal 28px Tahoma, Geneva, sans-serif;
+	margin-top: 44px;
+	margin-right: 0;
+	margin-bottom: 33px;
+	margin-left: 0;
+}
+
+/*Twitter*/
+.Twitter {
+	font: normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#d6e8f5;
+	background:url(static/images/twitter.gif) right no-repeat;
+	padding:10px 10px;
+	margin:44px 0 0 0;
+	width:150px;
+	float:right;
+}
+
+/* menu */
+.menu {
+	padding:0;
+	margin:0;
+	width:966px;
+	height:53px;
+	background: url(static/images/bg_menu.gif) top repeat-x;
+}
+.menu ul {
+	padding:0;
+	margin:0 30px 0 0;
+	list-style:none;
+	border:0;
+	float: left;
+	width:auto;
+}
+.menu ul li {
+	float:left;
+	width:auto;
+	margin:0;
+	padding:0;
+	border-right:1px solid #303030;
+	border-left:1px solid #0a0a0a;
+}
+.menu ul li a {
+	float:left;
+	width:auto; margin:0 1px 0 0;
+	padding:17px 47px; color:#FFFFEC;
+	font:normal 14px Georgia, "Times New Roman", Times, serif;
+	text-decoration:none;
+}
+.menu ul li a:hover {
+	background: url(static/images/hover.gif) left repeat-x;
+}
+.menu ul li a.active {
+	background: url(static/images/hover.gif) left repeat-x;
+}
+
+/********** slider **********/
+.slider {
+	margin:0 auto;
+	padding:0;
+	height:348px;
+}
+.slider2 {
+	margin:0 auto;
+	padding:0;
+}
+.slice12 {
+	margin:0 auto;
+	width:966px;
+	padding:0;
+	background:url(static/images/bg_simple2.gif) top no-repeat;
+	height:93px;
+}
+.slice12 h2 {
+	font: normal 40px Georgia, "Times New Roman", Times, serif;
+	color:#1c1d1c;
+	padding:20px 40px;
+	margin:0;
+}
+
+/*simple text*/
+.simple {
+	width:966px;
+	margin:0 auto;
+	padding:0;
+}
+.simple .text {
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#858585;
+	width:200px;
+	float: right;
+	margin:10px 0;
+	padding:0;
+}
+.slider div.slice1 {
+	margin:0 auto;
+	width:966px;
+	padding:0;
+}
+.slider div.slice1 div.slice2 {
+	margin:0 auto;
+	padding:1px;
+}
+.slider div div div {
+	margin:0 auto;
+	padding:0;
+	width:966px;
+	height:348px;
+	background:url(static/images/bg_simple.gif) top no-repeat;
+}
+.slider div div div h2 {
+	width:300px;
+	float:left;
+	font:normal 40px Georgia, "Times New Roman", Times, serif;
+	color:#1c1d1c;
+	padding:30px 0 0 40px;
+	margin:0;
+	line-height:1.2em;
+}
+.slider div div div p {
+	width:300px;
+	float:left;
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#262626;
+	margin:0;
+	padding:10px 0 0 40px;
+	line-height:1.8em;
+}
+.slider div div div p.img {
+	width:590px;
+	float:right;
+	padding:40px 0 0 0;
+	margin:0;
+}
+
+.slider div div div a {
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+}
+
+.slider div div div a:hover {
+	text-decoration:none;
+}
+
+/********** block index **********/
+.body {
+	padding:0;
+	margin:0;
+}
+.body h2 {
+	font:normal 24px Georgia, "Times New Roman", Times, serif;
+	color:#373737;
+	padding:10px 5px;
+	margin:0;
+}
+.body h3 {
+	font:normal 18px Georgia, "Times New Roman", Times, serif;
+	color:#373737;
+	padding:10px 5px;
+}
+.body a {
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#2e597c;
+	text-decoration:none;
+}
+.body p {
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#8d8d8d;
+	line-height:1.8em;
+	padding:5px;
+	margin:0;
+}
+.body strong {
+	color:#656565;
+}
+.body span {
+	font:bold 11px Georgia, "Times New Roman", Times, serif;
+	color:#baa271;
+}
+.body em {
+	font:italic 11px Georgia, "Times New Roman", Times, serif;
+	color:#8d8d8d;
+	line-height:1.8em;
+	padding:10px 0 0 10px;
+}
+.body_resize {
+	width:966px;
+	margin:0 auto;
+	padding:0;
+	background:#fff;
+	border-bottom:5px solid #0e0e0e;
+}
+
+/********************topi***************/
+.topi {
+	width:946px;
+	margin:0 auto;
+	padding:0 0 0 20px;
+	background:#f2f3eb;
+	border-bottom:1px solid #e8e5dc;
+}
+.topi .blogi {
+	width:300px;
+	margin:5px 5px;
+	padding:0;
+	float:left;
+}
+.topi h2 {
+	border:0;
+	font:normal 26px Georgia, "Times New Roman", Times, serif;
+	color:#1c1c1c;
+	padding:18px 0 18px 70px;
+	margin:10px 0 0 0;
+}
+.topi p {
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#646464;
+	padding: 5px 10px;
+	margin:0;
+	line-height:1.8em;
+}
+.topi a {
+	text-decoration:underline;
+	font:normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#35678f;
+}
+.topi h2.what {
+	background:url(static/images/h2_what.gif) left no-repeat;
+}
+.topi h2.Our {
+	background:url(static/images/h2_suport.gif) left no-repeat;
+}
+.topi h2.work {
+	background:url(static/images/h2_work.gif) left no-repeat;
+}
+
+/*******************Welcome*****************/
+.Welcome {
+	width:800px;
+	float:left;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.Welcome ul {
+	width:250px;
+	float: left;
+	margin:5px 3px;
+	padding:0;
+	list-style:none;
+}
+.Welcome li {
+	background:url(static/images/ul_li.gif) left no-repeat;
+	padding:5px 20px;
+	margin:0;
+	font: normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#5c5c5c;
+}
+.Welcome .serv {
+	width:250px;
+	float:left;
+	margin:5px 2px;
+	padding:0;
+}
+.Welcome .serv img {
+	margin:10px 5px;
+	float:left;
+	padding:0;
+}
+
+/*News */
+.News {
+	width:307px;
+	float: left;
+	margin:5px 15px;
+	padding:5px 10px;
+}
+.News ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.News li {
+	background:url(static/images/Sub_ul_li.gif) left no-repeat;
+	padding:5px 30px;
+	margin:0;
+	border-bottom:1px solid #eaeaea;
+}
+.News ul li a {
+	font: normal 11px Georgia, "Times New Roman", Times, serif;
+	color:#3a3c3c;
+	text-decoration:none;
+}
+.News ul li a:hover {
+	color:#2e5a7c;
+	text-decoration:underline;
+}
+
+/********** contact form **********/
+#contactform {
+	margin:0;
+	padding:5px 10px;
+}
+#contactform * {
+	color:#222222;
+}
+#contactform ol {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#contactform li {
+	margin:0;
+	padding:0;
+	background:none;
+	border:none;
+	display:block;
+}
+#contactform li.buttons {
+	margin:5px 0 5px 0;
+}
+#contactform label {
+	margin:0;
+	width:110px;
+	display:block;
+	padding:5px 0;
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+	color:#656565;
+	text-transform:capitalize;
+}
+#contactform label span {
+	font:normal 10px Arial, Helvetica, sans-serif;
+}
+#contactform input.text {
+	width:440px;
+	border:1px solid #dcdcdc;
+	margin:5px 0;
+	padding:5px 2px;
+	height:16px;
+	background:#f5f5f5;
+}
+#contactform textarea {
+	width:440px;
+	border:1px solid #dcdcdc;
+	margin:10px 0;
+	padding:2px;
+	background:#f5f5f5;
+}
+#contactform li.buttons input {
+	padding:3px 0;
+	margin:0;
+	border:0;
+	color:#FFFFEC;
+}
+p.response {
+	text-align:center;
+	color:#2c2c2c;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	line-height:1.8em;
+	width:auto;
+}
+
+/********** footer **********/
+.footer {
+	padding:30px 0;
+	margin:0 auto;
+}
+.footer .resize p.footer_logo {
+	float:left;
+	padding:0;
+	margin:0 10px;
+	width:auto;
+	font: normal 18px Tahoma, Geneva, sans-serif;
+}
+.footer .resize div {
+	width:966px;
+	color:#d6e8f5;
+	font:normal 11px Tahoma, Geneva, sans-serif;
+	text-align:left;
+	margin:0 auto;
+}
+.footer .resize div p {
+	padding:0;
+	margin:0;
+	float:right;
+	width:auto;
+}
+.footer .resize div img {
+	margin:0;
+	padding:0;
+}
+.footer .resize div a {
+	color:#d6e8f5;
+	font:normal 11px Tahoma, Geneva, sans-serif;
+	padding:0 1px;
+}
+.text_left {
+	text-align:right;
+}
+p.clr,
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	background:none;
+}
+li.bg,
+.bg {
+	clear:both;
+	border-top:1px solid #eaeaea;
+	padding:0;
+	margin:5px 0;
+	background:none;
+}
+
+</style>
+  <style type="text/css">
+#slider {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#slider ul, #slider li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li {
+	width:966px;
+	height:348px;
+	overflow:hidden;
+}
+p#controls {
+	margin:0;
+	position:relative;
+}
+#prevBtn, #nextBtn {
+	display:block;
+	margin:0;
+	overflow:hidden;
+	width:13px;
+	height:28px;
+	position:absolute;
+	left: -13px;
+	top:-210px;
+}
+#nextBtn {
+	left:966px;
+}
+#prevBtn a {
+	display:block;
+	width:13px;
+	height:28px;
+	background:url(static/images/l_arrow.gif) no-repeat 0 0;
+}
+#nextBtn a {
+	display:block;
+	width:13px;
+	height:28px;
+	background:url(static/images/r_arrow.gif) no-repeat 0 0;
+}
+.style3 {font-size: 36px}
+  .style4 {color: #000000;
+	font-weight: bold;
+}
+  .style5 {color: #000000}
+  </style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="block_header">
+      <div class="logo"><b style="color:#FC0"></b><b style="color:#FFF">Student Attendance</b></div>
+
+      <div class="clr"></div>
+      <div class="menu">
+        <ul>
+        <li><a href="/adminhome" class="active">Home</a></li>
+        <li><a href="/addstudent">Add Student</a></li>
+
+        <li><a href="/view">View</a></li>
+          <li><a href="/">Logout</a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  
+  <div class="clr"></div>
+  <div class="body">
+    <div class="topi">
+      <div class="clr"></div>
+    </div>
+    <div class="body_resize">
+      <div class="Welcome">
+        <h2>Welcome to Admin Home </h2>
+        <p>&nbsp;</p>
+        <div class="bg">
+          <div align="center" class="style3">Face-Image And Train Image </div>
+        </div>
+         <div>
+         
+          <form id="form1" name="form1" method="post" action="/getimage">
+            <table width="100%">
+              <tr>
+                <td height="39">&nbsp;</td>
+                <td width="25%" rowspan="11"><img src="static/images/staff.png" alt="p" width="300" height="300" /></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="6%" height="39">&nbsp;</td>
+                <td width="14%">&nbsp;</td>
+                <td width="43%">&nbsp;</td>
+                <td width="6%">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="26">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="36">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="36">&nbsp;</td>
+                <td><span class="style5">Select Student_Id</span> </td>
+                <td><label>
+                  <input name="sid" type="text" id="sid" />
+                </label></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="36">&nbsp;</td>
+                <td width="14%"><span class="style4">Select Name</span></td>
+                <td width="43%"><input name="name" type="text" id="name" required="required"/></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="35">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="35">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><label>
+                  <input type="submit" name="Submit" value="Take Images" class="button button2" />
+                  <input type="submit" name="Submit2" value="Submit" class="button button2"/>
+                </label></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="35">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="35">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="30">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><label></label></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        .
+         <div class="bg"></div>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+    <div class="resize">
+      <div></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
